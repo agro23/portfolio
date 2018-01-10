@@ -1,14 +1,33 @@
+/*
+.my-header {
+  background-image: url("/img/Portland_Night_panorama.jpg");
+  background-color: #17234E;
+  margin-bottom: 0;`enter code here`
+  min-height: 50%;
+  background-repeat: no-repeat;
+  background-position: center;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+*/
+
 body {
   background: linear-gradient(rgba(06, 43, 75, 0.23), rgba(169, 209, 243, 0.23));
 }
 
 .jumbotron {
   background-image: url("/C:/programming/epicodus/media-queries-and-responsive-design/week-in-review/img/Portland_Night_panorama.jpg");
-  background-size: cover;
+  background-size: cover;/*
+  background-repeat: no-repeat;*/
+  /*background-image: linear-gradient(rgba(10, 10, 255, 0.3), rgba(255, 255, 0, 0.3));*/
+  color: #ffffff;
+  /*margin: 0;*/
   border: 2px solid gray;
 }
 
 .backdrop {
+  /*margin: 0;*/
+  /*padding: 20px;*/
   background-color: rgba(0, 0, 255, 0.5);
   color: #ffffff;
 }
@@ -17,7 +36,7 @@ body {
   background: linear-gradient(rgba(06, 43, 75, 0.5), rgba(169, 209, 243, 0.5));
 }
 
-/*.row {
+.row {
   margin: 0px;
   padding: 0px;
 }
@@ -38,7 +57,7 @@ body {
 .panel-text{
   color: #0f0f0f;
 }
-*/
+
 .panel-box {
   margin-top: 0px;
   margin-bottom: 7px; <!-- was #13 -->
@@ -46,6 +65,10 @@ body {
   margin-right: 2px;
   border: 2px solid gray;
   padding: 24px;
+  /*background-color: rgba(133, 166, 243, 0.5);
+  background-color: rgba(55, 88, 117, 0.5);
+  min-height: 80%;
+  /* #375875
 }
 
 .panel-body {
@@ -54,15 +77,6 @@ body {
   border: 2px solid gray;
   padding: 24px;
   background-color: rgba(133, 166, 243, 0.5);
-}
-
-.space-left {
-  float: left;
-  width: 43%;
-}
-
-.space-right {
-  float: left;
 }
 
 /*h1, h2, h3, p {
