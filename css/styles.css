@@ -6,6 +6,8 @@ body {
   background-image: url("/C:/programming/epicodus/media-queries-and-responsive-design/week-in-review/img/Portland_Night_panorama.jpg");
   background-size: cover;
   border: 2px solid gray;
+  padding: .05em;
+  margin-top: 1em;
 }
 
 .backdrop {
@@ -41,7 +43,7 @@ body {
 */
 .panel-box {
   margin-top: 0px;
-  margin-bottom: 7px; <!-- was #13 -->
+  margin-bottom: 70px; <!-- was #13 -->
   margin-left: 2px;
   margin-right: 2px;
   border: 2px solid gray;
@@ -49,10 +51,18 @@ body {
 }
 
 .panel-body {
-  margin: 0px;
-  margin-bottom: 13px;
+  margin-top: 10px;
+  margin-bottom: 45px;
+  margin-right: 13px;
   border: 2px solid gray;
   padding: 24px;
+  background-color: rgba(133, 166, 243, 0.5);
+}
+
+.boxy {
+  margin: 5, 5, 5, 5;
+  border: 2px solid darkred;
+  padding: 14px;
   background-color: rgba(133, 166, 243, 0.5);
 }
 
@@ -62,7 +72,8 @@ body {
 }
 
 .space-right {
-  float: left;
+  float: right;
+  width: 57%
 }
 
 /*h1, h2, h3, p {
