@@ -18,6 +18,24 @@ body {
   /* width: 80%; */
 }
 
+.emphasize {
+  font-size: 1.25em;
+}
+
+.emphasize strong {
+  font-size: 1.25em;
+  font-weight: bolder;
+}
+
+.about-link {
+  visibility: hidden;
+}
+
+.about-me:hover {
+  background-color: turquoise;
+  display: inline;
+}
+
 .block {
   display: block;
   margin-right: 5em;
@@ -109,6 +127,10 @@ body {
   padding: 24px;
 }
 
+.space-l {
+  margin-left: .5em;
+}
+
 .panel-body {
   margin-top: 10px;
   margin-bottom: 45px;
@@ -116,6 +138,12 @@ body {
   border: 2px solid gray;
   padding: 24px;
   background-color: rgba(133, 166, 243, 0.5);
+  color: #041F2E;
+}
+
+.panel-body h2 {
+  display: block;
+  background-color: rgba(0, 0, 100, 0.25);
 }
 
 .boxy {
