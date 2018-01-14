@@ -4,6 +4,8 @@ body {
 
 .jumbotron {
   background-image: url("/C:/programming/epicodus/media-queries-and-responsive-design/week-in-review/img/Portland_Night_panorama.jpg");
+/************************************ FIX IMAGE URL ****************************************************/
+  /* background-image: url("/img/Portland_Night_panorama.jpg"); */
   background-size: cover;
   border: 2px solid gray;
   padding: .5em;
@@ -18,6 +20,10 @@ body {
   /* width: 80%; */
 }
 
+.para {
+  margin-right: 20%;
+}
+
 .emphasize {
   font-size: 1.25em;
 }
@@ -29,19 +35,174 @@ body {
 
 .about-link {
   visibility: hidden;
+  /* display: none; */
 }
 
-.about-me:hover {
-  background-color: turquoise;
+/***********************************************************/
+
+/* .test li:hover { */
+  /* background-color: chartreuse; */
+  /* width: 12em; */
+/* } */
+
+li .test-block:hover {
+  /* Hovers over just the list item words and highlights them.  */
+  /* This way there is no removal of the element from the flow. */
   display: inline;
+  background-color: turquoise;
 }
+
+/* .test-block:hover + #writer-block {
+  visibility: visible;
+  display: block;
+  background-color: red;
+} */
+
+.talent-panel {
+  color: black;
+  background-color: rgb(103,147,171); /* #find a better color soon! */
+  margin: 1em;
+  border-radius: 1.5em;
+  border: 4px solid black; /* #find a better color soon! */
+  padding: 5em;
+  height: 15em;
+  width: 35em;
+  position: fixed;
+  top: 35%;
+  left: 33%;
+  right: 33%;
+  float: left;
+  z-index: 1000;
+}
+
+#follow-writer {
+  display: none;
+}
+#follow-editer {
+  display: none;
+}
+
+#follow-consultant {
+  display: none;
+}
+
+#follow-localizer {
+  display: none;
+}
+
+#follow-trades {
+  display: none;
+}
+
+li span:hover + #follow-writer {    /************ THIS ONE WORKS!!!!! **********/
+  display: block;
+}
+
+li span:hover + #follow-editer {
+  display: block;
+}
+
+li span:hover + #follow-consultant {
+  display: block;
+}
+
+li span:hover + #follow-localizer {
+  display: block;
+}
+
+li span:hover + #follow-trades {
+  display: block;
+}
+
+/* .test:hover {
+  background-color: red;
+} */
+
+#writer-block {
+  /* visibility: hidden; */
+  /* display: none; */
+  float: left;
+  position: absolute;
+}
+
+#writer-block:hover {
+  background-color: red;
+  /* visibility: hidden; */
+  display: none;
+}
+
+#whatever .test .test-block:hover ~ .test-div {
+  background-color: purple;
+}
+
+/* #btn:hover + .zz {} */
+
+
+/************************************************************/
+
+
+/* .about-me:hover {
+  background-color: turquoise;
+  /* visibility: visible; */
+  /* display: inline; */
+  /* width: 12em;
+} */
 
 .block {
   display: block;
   margin-right: 5em;
   clear: right;
-
 }
+
+
+/* #writer:hover ~ .writer-block {
+  visibility: visible;
+  display: block;
+} */
+
+/* .zz {
+  text-align: center;
+  line-height: 100px;
+  font-size: 20px;
+  font-weight: bold;
+  width: 100px;
+  height: 100px;
+  color: white;
+  background: red;
+  border: 4px solid black;
+  margin: 100px;
+  -webkit-transition: transform 1s;
+  -webkit-transition-timing: ease-in-out;
+  -webkit-transition-delay: 0.1s;
+  float: left;
+}
+ */
+/* #btn:hover + .zz {
+  background: green;
+  -webkit-transform: rotate(40deg) translate(100px, 20px);
+} */
+
+/* #writer:hover ~ .writer-block {
+  background: green;
+  -webkit-transform: rotate(40deg) translate(100px, 20px);
+} */
+
+/* #writer:hover {
+  color: red;
+} */
+
+/* #writer:hover ~ li {
+  color: red;
+} */
+
+
+
+
+/* #writer:hover + .zz {
+  background: green;
+  -webkit-transform: rotate(40deg) translate(100px, 20px);
+} */
+
 
 .backdrop {
   background-color: rgba(0, 0, 255, 0.5);
@@ -77,31 +238,7 @@ body {
   /* padding: 10px; */
   border: 5px solid gray;
   clear: left;
-
 }
-
-/*.row {
-  margin: 0px;
-  padding: 0px;
-}
-
-.col {
-  margin: 0px;
-  padding: 0px;
-}
-.well {
-  margin-top: 3px;
-}
-
-/*.panel {
-  margin: 0px, 0px, 0px, 0px;
-  padding: 5px;
-}
-
-.panel-text{
-  color: #0f0f0f;
-}
-*/
 
 .plaque {
   width: 52%;
