@@ -14,12 +14,7 @@ body {
   margin: 10px, 10px, 10px, 10px;
   float: inherit;
   min-width: 300px;
-  /* position: relative; */
-  /* max-width: 66%; */
-  /* top: 0; */
-  /* left: 10%; */
   z-index: 20;
-  /* width: 80%; */
 }
 
 .para {
@@ -319,20 +314,15 @@ li span:hover + #follow-analyst {
 .portrait {
   min-width: 13%;
   max-width: 22%;
-  /* float: right;
   top: auto;
-  left: auto; */
+  left: auto; 
   position: absolute;
   z-index: 25;
-  /* position: absolute; */
   float: right;
-  /* right: 130px; */
   right: 5em;
   margin-right: 10em;
   top: 4.5em;
   width: 120px;
-  /* margin-left: 100em; */
-  /* padding: 10px; */
   border: 5px solid gray;
   clear: left;
 }
@@ -354,7 +344,7 @@ li span:hover + #follow-analyst {
 
 .panel-box {
   margin-top: 0px;
-  margin-bottom: 70px; <!-- was #13 -->
+  margin-bottom: 70px;
   margin-left: 2px;
   margin-right: 2px;
   border: 2px solid gray;
@@ -393,8 +383,21 @@ li span:hover + #follow-analyst {
   width: 88%;
 }
 
+.margin-left {
+  /* margin-left: 33%; */
+  /* margin-left: 15%;*/
+  margin-left: 50px;
+}
+
+.margin-right {
+  /* margin-left: 33%; */
+  /* margin-right: 15%; */
+  margin-right: 50px;
+}
+
 .space-right {
   float: right;
+  position: absolute;
   width: 57%
 }
 
