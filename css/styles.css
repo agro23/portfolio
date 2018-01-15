@@ -35,11 +35,6 @@ body {
 
 /***********************************************************/
 
-/* .test li:hover { */
-  /* background-color: chartreuse; */
-  /* width: 12em; */
-/* } */
-
 li .test-block:hover {
   /* Hovers over just the list item words and highlights them.  */
   /* This way there is no removal of the element from the flow. */
@@ -59,7 +54,7 @@ li .test-block:hover {
   margin: 1em;
   border-radius: 1.5em;
   border: 4px solid black; /* #find a better color soon! */
-  padding: 5em;
+  padding: 2em; /* was 5em */
   height: 15em;
   width: 35em;
   position: fixed;
@@ -205,6 +200,19 @@ li span:hover + #follow-analyst {
 /* .test:hover {
   background-color: red;
 } */
+
+.in-panel {
+  position: relative;
+  max-height: 88%;
+  /* margin-top: -15%; */
+  margin-left: auto;
+  margin-right: 1em;
+  margin-bottom: 1em;
+  border: 2px solid black;
+  border-radius: 25px;
+  float: left;
+}
+
 
 #writer-block {
   /* visibility: hidden; */
