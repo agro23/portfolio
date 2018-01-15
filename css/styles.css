@@ -5,7 +5,7 @@ body {
 .jumbotron {
   /* background-image: url("/C:/programming/epicodus/media-queries-and-responsive-design/week-in-review/img/Portland_Night_panorama.jpg"); */
 /************************************ FIX IMAGE URL ****************************************************/
-  background-image: url("/img/Portland_Night_panorama.jpg");
+  background-image: url("../img/Portland_Night_panorama.jpg");
   background-size: cover;
   border-radius: 3.5em;
   border: 2px solid gray;
