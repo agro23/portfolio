@@ -7,9 +7,11 @@ body {
 /************************************ FIX IMAGE URL ****************************************************/
   /* background-image: url("/img/Portland_Night_panorama.jpg"); */
   background-size: cover;
+  border-radius: 3.5em;
   border: 2px solid gray;
   padding: .5em;
-  margin: 10em, 10em, 10em, 10em;
+  margin-top: 10px;
+  margin: 10px, 10px, 10px, 10px;
   float: inherit;
   min-width: 300px;
   /* position: relative; */
@@ -78,7 +80,7 @@ li .test-block:hover {
 #follow-writer {
   display: none;
 }
-#follow-editer {
+#follow-editor {
   display: none;
 }
 
@@ -94,11 +96,11 @@ li .test-block:hover {
   display: none;
 }
 
-li span:hover + #follow-writer {    /************ THIS ONE WORKS!!!!! **********/
+li span:hover + #follow-writer {
   display: block;
 }
 
-li span:hover + #follow-editer {
+li span:hover + #follow-editor {
   display: block;
 }
 
@@ -114,6 +116,100 @@ li span:hover + #follow-trades {
   display: block;
 }
 
+
+#follow-games {
+  display: none;
+}
+#follow-rpgs {
+  display: none;
+}
+
+#follow-music {
+  display: none;
+}
+
+#follow-programming {
+  display: none;
+}
+
+#follow-supernatural {
+  display: none;
+}
+
+li span:hover + #follow-games {
+  display: block;
+}
+
+li span:hover + #follow-rpgs {
+  display: block;
+}
+
+li span:hover + #follow-music {
+  display: block;
+}
+
+li span:hover + #follow-programming {
+  display: block;
+}
+
+li span:hover + #follow-supernatural {
+  display: block;
+}
+
+#follow-project-manager {
+  display: none;
+}
+#follow-co-founder {
+  display: none;
+}
+
+#follow-tripwire {
+  display: none;
+}
+
+#follow-lead {
+  display: none;
+}
+
+#follow-qa {
+  display: none;
+}
+
+#follow-owner {
+  display: none;
+}
+
+#follow-analyst {
+  display: none;
+}
+
+li span:hover + #follow-project-manager {
+  display: block;
+}
+
+li span:hover + #follow-co-founder {
+  display: block;
+}
+
+li span:hover + #follow-tripwire {
+  display: block;
+}
+
+li span:hover + #follow-lead {
+  display: block;
+}
+
+li span:hover + #follow-qa {
+  display: block;
+}
+
+li span:hover + #follow-owner {
+  display: block;
+}
+
+li span:hover + #follow-analyst {
+  display: block;
+}
 /* .test:hover {
   background-color: red;
 } */
@@ -131,9 +227,9 @@ li span:hover + #follow-trades {
   display: none;
 }
 
-#whatever .test .test-block:hover ~ .test-div {
+/* #whatever .test .test-block:hover ~ .test-div {
   background-color: purple;
-}
+} */
 
 /* #btn:hover + .zz {} */
 
@@ -232,7 +328,8 @@ li span:hover + #follow-trades {
   float: right;
   /* right: 130px; */
   right: 5em;
-  top: 4em;
+  margin-right: 10em;
+  top: 4.5em;
   width: 120px;
   /* margin-left: 100em; */
   /* padding: 10px; */
