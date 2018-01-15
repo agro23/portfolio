@@ -20,9 +20,14 @@ _*Knowledge of Bootstrap_
 _This project will have a little bit of CSS but nothing every browser won't render._
 _Most of the files will call out to the main Bootstrap CDN location_
 
-## Known Bugs
+## Known Bugs and Issues
 
-_Presently there are no bugs_
+_Presently there are no known bugs_
+_The website could benefit from more work on the psuedo-modal pop-up panels._
+_They were done in CSS only and don't work on Safari or Firefox for iPhone._
+_Implementing them with jQuery and/or Bootstrap's jQuery would be much better._
+_This page does not play well with phones at all; bad colors and layout._
+_Any future revisions will have to take that into account._ 
 
 ## Support and contact details
 
